@@ -1,0 +1,34 @@
+<div class="bodyImg">
+    <div class="col-md-6 login">
+        <h1 class="heading">Login</h1>
+        <div>
+            <p class="para">Need an account? <a class="singup" routerLink="/sign-up">Sign up</a></p>
+        </div>
+        <br />
+        <form>
+            <div>
+                <label class="signText">Sign In</label>
+                <br />
+                <input type="text" placeholder="Email or Mobile" class="text-box">
+            </div>
+            <br />
+
+            <div *ngIf="otp">
+                <button class=" btn btn-primary" routerLink="/dashboard">Send OTP</button>
+                 </div>
+
+            <br />
+
+            <div *ngIf="login">
+                <div>
+                    <input type="text" placeholder="Enter your OTP" class="text-box">
+                </div>
+                <br />
+
+                <div>
+                    <button class=" btn btn-primary">Login</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

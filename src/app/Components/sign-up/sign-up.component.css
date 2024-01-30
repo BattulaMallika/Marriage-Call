@@ -1,0 +1,40 @@
+input{
+    margin: 7px;
+    width:250px;
+}
+.span1{
+    color: blue;
+    font-size: 13px;
+}
+.button1{
+    font-size: 13px;
+    height:30px;
+    width:200px;
+}
+.para2{
+    font-size: 13px;
+}
+.second-bg{
+    text-align: center;
+    padding-top: 50px;
+    /* border-style: solid;
+    border-color: black; */
+    width:630px;
+    /* margin-left: 350px; */
+    padding: 20px;
+
+}
+
+/* .bgImg{
+    background-image: url("../../../assets/images/couple.jpg.jpeg");
+    background-size: cover;
+    height:100vh;
+} */
+
+.img2{
+    height: 100vh;
+    width: 105vh;
+}
+.bg-container{
+    background-color: #eb94e5;
+}
