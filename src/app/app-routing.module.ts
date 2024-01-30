@@ -3,11 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { SignUpComponent } from './Components/sign-up/sign-up.component';
 import { LoginComponent } from './Components/login/login.component';
 import { DashboardComponent } from './Components/dashboard/dashboard.component';
+import { RegisterComponent } from './Components/register/register.component';
 
 const routes: Routes = [
   { path: "", pathMatch:"full", component: LoginComponent },
   { path: "login", component: LoginComponent },
   { path: "sign-up", component: SignUpComponent },
+  { path: "register", component: RegisterComponent },
   { path: "dashboard", component: DashboardComponent }
 ];
 
